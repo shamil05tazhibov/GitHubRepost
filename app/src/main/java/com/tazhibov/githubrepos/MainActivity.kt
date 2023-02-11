@@ -10,4 +10,9 @@ class MainActivity : AppCompatActivity() {
         Log.d("MainActivity","onCreate")
         setContentView(R.layout.activity_main)
     }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        Log.d("MainActivity","onDestroy")
+    }
 }
