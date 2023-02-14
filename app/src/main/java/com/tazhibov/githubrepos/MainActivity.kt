@@ -20,6 +20,11 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
     override fun onStart() {
         super.onStart()
         Log.d("MainActivity","Был вызван onStart")
+    }
 
+    //Вызывается когда экран становиться не видемым
+    override fun onStop() {
+        super.onStop()
+        Log.d("MainActivity","был вызван onStop")
     }
 }
