@@ -29,4 +29,8 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
         super.onStop()
         Log.d("MainActivity", "был вызван onStop")
     }
+    //Выполняем переход на экран списка репозиториев
+     private fun navigateFragmentRepositories() {
+
+     }
 }
