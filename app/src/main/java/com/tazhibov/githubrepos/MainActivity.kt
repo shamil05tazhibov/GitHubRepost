@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 
+// Главный экран приложения
 class MainActivity : AppCompatActivity(R.layout.activity_main) {
     //    Вызывается при создании Activity
     override fun onCreate(savedInstanceState: Bundle?) {
