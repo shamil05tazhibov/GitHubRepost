@@ -1,4 +1,4 @@
 package adapters
 
-class RepositoryAdapter {
+class RepositoryAdapter  {
 }
