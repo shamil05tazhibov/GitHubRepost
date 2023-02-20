@@ -2,6 +2,6 @@
     <string name="app_name">GitHubRepos</string>
     <string name="Репозитории">Выберите общее количество отображаемых репозиториев на экране (только числа)</string>
 
-    <string name="repositories">Repositories</string>
+    <string name="repositories">Репозитории</string>
 
 </resources>
